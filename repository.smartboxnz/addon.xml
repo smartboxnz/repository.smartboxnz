@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.smartboxnz" name="SmartBox Repository " version="1.0" provider-name="smartboxnz">
+    <extension point="xbmc.addon.repository" name="SmartBox Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/smartboxnz/repository.smartboxnz/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/smartboxnz/repository.smartboxnz/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/smartboxnz/repository.smartboxnz/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SmartBox Repository</summary>
+        <description>SmartBox Entertainment Repository for SmartBox NZ system.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
